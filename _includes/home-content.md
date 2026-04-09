@@ -1,11 +1,12 @@
-<div class="py-6 px-3 mb-5 text-center color-bg-accent-emphasis color-fg-on-emphasis rounded-3">
+<div class="py-6 px-3 mb-5 text-center color-bg-accent-emphasis color-fg-on-emphasis rounded-3 hero-panel">
   <h1 class="f00-light mb-2">HATS Workshop</h1>
+  <p class="workshop-date">August 23, 2026</p>
   <p class="f3">Workshop on Designing Human-AI Teaming for Security @ SOUPS 2026</p>
   <p class="f4 mb-3">Exploring how to balance human agency and AI autonomy in high-stakes cybersecurity decision-making.</p>
-  <a class="btn btn-primary" href="#" aria-disabled="true" style="font-size: 1.125rem; padding: 0.75rem 1.25rem; opacity: 0.6; pointer-events: none; cursor: not-allowed;">Position Paper Submission (Coming Soon)</a>
+  <a class="btn btn-primary is-disabled-btn" href="#" aria-disabled="true">Position Paper Submission (Coming Soon)</a>
 </div>
 
-[Topic & Goals](#workshop-topic--goals) · [Call for Participation](#call-for-participation) · [Program](#program) · [Topics](#topics-of-interest) · [Organizers](#organizers) · [Accepted Papers](accepted-papers.html)
+[Topic & Goals](#workshop-topic--goals) · [Call for Participation](#call-for-participation) · [Program](#program) · [Topics](#topics-of-interest) · [Organizers](#organizers) · [Accepted Papers]({{ '/accepted-papers.html' | relative_url }})
 
 ---
 
@@ -31,7 +32,7 @@ We invite short position papers and contributions related to human-AI teaming in
 - **Notification to authors:** June 15, 2026
 - **Camera-ready deadline:** June 25, 2026
 
-Submission portal link will be added soon.
+<span class="submission-note">Submission portal link will be added soon.</span>
 
 ---
 

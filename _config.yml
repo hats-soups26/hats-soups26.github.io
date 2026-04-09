@@ -1,6 +1,6 @@
 remote_theme: pages-themes/primer@v0.6.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+- jekyll-remote-theme
 title: HATS @ SOUPS
 description: This is the official website for the Workshop on Designing Human-AI Teaming for Security (HATS) taking place at the 2026 Symposium on Usable Privacy and Security (SOUPS).
 logo: /hats_v0.png

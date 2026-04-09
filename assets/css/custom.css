@@ -4,9 +4,9 @@
   --border: #d8dee4;
   --text: #24292f;
   --muted: #6e7781;
+  --nav-bg: #f6f8fa;
+  --nav-border: #d0d7de;
   --brand: #0969da;
-  --brand-dark: #0d3b8f;
-  --brand-light: #388bfd;
   --accent-date: #0a58ca;
   --disabled: #8c959f;
 }
@@ -50,9 +50,9 @@ body {
   font-weight: 600;
   color: var(--text);
   padding: 0.35rem 0.65rem;
-  border: 1px solid #d0d7de;
+  border: 1px solid var(--nav-border);
   border-radius: 6px;
-  background: #f6f8fa;
+  background: var(--nav-bg);
 }
 
 .site-nav a[aria-current="page"] {
@@ -79,22 +79,9 @@ body {
 }
 
 .hero-panel {
-  background: #f8fbff;
-  border: 1px solid #d0e3ff;
+  background: #ffffff;
+  border: 1px solid var(--border);
   box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
-  position: relative;
-}
-
-.hero-panel::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 4px;
-  background: linear-gradient(90deg, var(--brand-dark), var(--brand));
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
 }
 
 .hero-panel h1,
@@ -120,14 +107,12 @@ body {
   display: inline-block;
   font-size: 1.125rem;
   padding: 0.75rem 1.25rem;
-  opacity: 1;
   background: var(--disabled) !important;
   border-color: var(--disabled) !important;
   color: #ffffff !important;
   pointer-events: none;
   cursor: not-allowed;
   box-shadow: none !important;
-  filter: grayscale(0.1);
 }
 
 .is-disabled-btn:hover,

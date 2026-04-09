@@ -11,6 +11,10 @@
   --disabled: #8c959f;
 }
 
+html {
+  scrollbar-gutter: stable;
+}
+
 body {
   background: var(--page-bg);
 }

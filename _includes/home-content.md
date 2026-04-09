@@ -1,4 +1,4 @@
-<div class="py-6 px-3 mb-5 text-center color-bg-accent-emphasis color-fg-on-emphasis rounded-3 hero-panel">
+<div class="py-6 px-3 mb-5 text-center rounded-3 hero-panel">
   <h1 class="f00-light mb-2">HATS Workshop</h1>
   <p class="workshop-date">August 23, 2026</p>
   <p class="f3">Workshop on Designing Human-AI Teaming for Security @ SOUPS 2026</p>

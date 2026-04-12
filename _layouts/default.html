@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/custom.css" | relative_url }}">
     {% include head-custom.html %}
+    <link rel="icon" href="{{ "/favicon.ico" | relative_url }}" type="image/x-icon">
   </head>
   <body>
     {% assign home_url = "/" | relative_url %}
     {% assign accepted_url = "/accepted-papers.html" | relative_url %}
 
     <div class="container-lg px-3 my-5 markdown-body">
+      {% if page.url != "/" and page.url != "/index.html" %}
       <header class="site-header">
         <a class="site-brand" href="{{ home_url }}" aria-label="HATS Workshop home">
           <img src="{{ site.logo | default: '/hats_v0.png' | relative_url }}" alt="HATS Workshop logo">
@@ -24,6 +26,7 @@
           <a href="{{ accepted_url }}" {% if page.url == "/accepted-papers.html" %}aria-current="page"{% endif %}>Accepted Papers</a>
         </nav>
       </header>
+      {% endif %}
 
       {{ content }}
     </div>

@@ -16,15 +16,15 @@ html {
 }
 
 body {
-  background: var(--page-bg);
+  background: #ffffff;
 }
 
 .container-lg.markdown-body {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(140, 149, 159, 0.2);
-  padding: 1.25rem 1.25rem 2rem;
+  background: #ffffff;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  padding: 2rem 1.25rem;
 }
 
 .site-header {
@@ -83,28 +83,52 @@ body {
 }
 
 .hero-panel {
-  background: #ffffff;
-  border: 1px solid var(--border);
-  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);
+  background: linear-gradient(135deg, #ffffff 0%, #f9fafb 100%);
+  border: none;
+  border-bottom: 2px solid var(--border);
+  box-shadow: none;
+  padding: 3rem 1.25rem !important;
+  margin-bottom: 2rem !important;
 }
 
-.hero-panel h1,
+.hero-panel h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
 .hero-panel p {
   color: var(--text);
 }
 
 .hero-panel .f3 {
-  color: #1f2937;
+  font-size: 1.25rem;
+  color: var(--brand);
   font-weight: 600;
+  margin: 1rem 0 1rem;
+  letter-spacing: 0.01em;
+}
+
+.hero-panel .f4 {
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
 }
 
 .workshop-date {
-  margin: 0 0 0.5rem;
-  font-size: 1.5rem;
-  font-weight: 800;
-  line-height: 1.2;
-  color: var(--accent-date);
-  letter-spacing: 0.02em;
+  display: inline-block;
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--brand);
+  background: rgba(9, 105, 218, 0.08);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
 }
 
 .is-disabled-btn {

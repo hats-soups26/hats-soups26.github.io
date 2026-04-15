@@ -57,9 +57,7 @@ To participate, please submit a **two- to four-page position paper** on decision
 
 The workshop takes place on **Sunday afternoon, August 23, 2026** and follows a half-day format.
 
-- **Part 1: Shared context and lightning rounds** — We begin with welcome and introductions, followed by short lightning talks.
-- **Lightning round 1** — Initial short talks to surface key positions, problem framings, and early solution ideas.
-- **Group formation** — Mixed small groups are formed with ice breakers to prepare the co-design phase.
+- **Part 1: Shared context and lightning rounds** — We begin with welcome and introductions, followed by short lightning talks and group formation.
 - **Break**
 - **Part 2: Collaborative design** — Groups run a guided co-design session (double-diamond inspired), then share outputs in a vernissage-style gallery walk, followed by open discussion and synthesis.
 

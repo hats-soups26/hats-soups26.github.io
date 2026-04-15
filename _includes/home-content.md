@@ -47,6 +47,8 @@ We invite short position papers and contributions related to human-AI teaming in
 
 <span class="submission-note">Submission portal link will be added soon.</span>
 
+To participate, please submit a **two- to four-page position paper** on decision-making and human-AI teaming in cybersecurity. Submissions must follow the **SOUPS formatting template**. At least **one author of each accepted paper must attend in person**. Accepted papers will be published as workshop proceedings.
+
 </section>
 
 <section class="content-section section-white" markdown="1">

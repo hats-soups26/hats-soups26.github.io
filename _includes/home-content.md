@@ -45,7 +45,7 @@ We invite short position papers and contributions related to human-AI teaming in
 - **Notification to authors:** June 15, 2026
 - **Camera-ready deadline:** June 25, 2026
 
-Submission site: https://hats26.usenix.hotcrp.com/
+Submission site: [https://hats26.usenix.hotcrp.com/](https://hats26.usenix.hotcrp.com/)
 
 To participate, please submit a **two- to four-page position paper** on decision-making and human-AI teaming in cybersecurity. Submissions must follow the **SOUPS formatting template**. Submissions should <u>not</u> be anonymised. At least **one author of each accepted paper must attend in person**. Accepted papers will be published as workshop proceedings.
 

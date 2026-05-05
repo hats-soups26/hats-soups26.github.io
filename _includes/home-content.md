@@ -116,7 +116,7 @@ Example themes include (but are not limited to):
       <img class="party-hat" aria-hidden="true" alt="">
     </div>
     <h3>Tarini Saka</h3>
-    <p>Max Planck Institute for Security and Privacy (MPI-SP)</p>
+    <p>Max Planck Institute for Security and Privacy</p>
   </article>
   <article class="organizer-card">
     <div class="organizer-photo-wrap">

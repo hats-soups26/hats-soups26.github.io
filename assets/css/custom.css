@@ -373,7 +373,7 @@ body {
 
 .organizers-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 0.8rem;
   margin-top: 0.6rem;
 }
@@ -385,24 +385,61 @@ body {
   padding: 0.8rem 0.8rem 0.7rem;
   box-shadow: 0 4px 12px rgba(28, 78, 43, 0.06);
   transition: outline 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .organizer-card:focus-within {
   outline: 2px solid rgba(47, 125, 61, 0.3);
 }
 
+.organizer-photo-wrap {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 0.6rem;
+}
+
 .organizer-photo {
-  width: 58px;
-  height: 58px;
+  width: 72px;
+  height: 72px;
   border-radius: 50%;
-  display: grid;
-  place-items: center;
+  display: block;
+  object-fit: cover;
   font-weight: 700;
   letter-spacing: 0.04em;
   color: #2e5f3a;
   background: linear-gradient(145deg, #f6fcf3 0%, #ddefd6 100%);
   border: 1px solid #cde3c6;
-  margin-bottom: 0.6rem;
+}
+
+.party-hat {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* raised higher and slightly smaller (approx 10% smaller) */
+  top: -28px;
+  width: 30px;
+  height: auto;
+  pointer-events: none;
+  display: block;
+  background: transparent !important;
+  /* place above the profile image */
+  z-index: 4 !important;
+  transform-origin: 50% 100%;
+}
+
+/* Ensure hats sit behind and photos stay above */
+.organizer-photo {
+  position: relative;
+  z-index: 2;
+  background: transparent; /* don't obscure hat transparency */
+}
+.organizer-photo-wrap {
+  position: relative; /* keep wrapper positioning */
+  overflow: visible;
 }
 
 .organizer-card h3 {
@@ -420,6 +457,19 @@ body {
 .organizer-card img.organizer-photo {
   object-fit: cover;
   padding: 0;
+  object-position: center;
+}
+
+@media (max-width: 1100px) {
+  .organizers-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 860px) {
+  .organizers-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 640px) {

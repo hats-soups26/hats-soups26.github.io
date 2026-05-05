@@ -12,7 +12,7 @@
   <p class="workshop-date">August 23, 2026</p>
   <p class="f3">Workshop on Designing Human-AI Teaming for Security @ <a href="https://soups.page/" target="_blank" rel="noopener noreferrer">SOUPS 2026</a></p>
   <p class="f4 mb-3">Exploring how to balance human agency and AI autonomy in high-stakes cybersecurity decision-making.</p>
-  <a class="btn btn-primary is-disabled-btn" href="#" aria-disabled="true">Position Paper Submission (Coming Soon)</a>
+  <a class="btn btn-primary btn-submission" href="https://hats26.usenix.hotcrp.com/" target="_blank" rel="noopener noreferrer">Position Paper Submission</a>
 </div>
 
 <div class="quick-links" markdown="1">

@@ -105,7 +105,7 @@ Example themes include (but are not limited to):
   <article class="organizer-card">
     <div class="organizer-photo-wrap">
       <img class="organizer-photo" src="{{ '/imgs/neele.jpg' | relative_url }}" alt="Portrait of Neele Roch" loading="lazy">
-      <span class="party-hat" aria-hidden="true"><svg viewBox="0 0 24 24" width="44" height="44" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false"><g fill="none" stroke="#2f7d3d" stroke-width="1.4"><path d="M12 2 L6 12 L18 12 Z" fill="#ffe082" stroke="#c88b00"/><circle cx="9" cy="7" r="0.9" fill="#f06292"/><circle cx="12" cy="5" r="0.9" fill="#4fc3f7"/><circle cx="15" cy="7" r="0.9" fill="#81c784"/></g></svg></span>
+      <img class="party-hat" aria-hidden="true" alt="">
     </div>
     <h3>Neele Roch</h3>
     <p>ETH Zurich</p>
@@ -113,7 +113,7 @@ Example themes include (but are not limited to):
   <article class="organizer-card">
     <div class="organizer-photo-wrap">
       <img class="organizer-photo" src="{{ '/imgs/tarini.jpg' | relative_url }}" alt="Portrait of Tarini Saka" loading="lazy">
-      <span class="party-hat" aria-hidden="true"><svg viewBox="0 0 24 24" width="44" height="44" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false"><g fill="none" stroke="#2f7d3d" stroke-width="1.4"><path d="M12 2 L6 12 L18 12 Z" fill="#ffe082" stroke="#c88b00"/><circle cx="9" cy="7" r="0.9" fill="#f06292"/><circle cx="12" cy="5" r="0.9" fill="#4fc3f7"/><circle cx="15" cy="7" r="0.9" fill="#81c784"/></g></svg></span>
+      <img class="party-hat" aria-hidden="true" alt="">
     </div>
     <h3>Tarini Saka</h3>
     <p>Max Planck Institute for Security and Privacy (MPI-SP)</p>
@@ -121,7 +121,7 @@ Example themes include (but are not limited to):
   <article class="organizer-card">
     <div class="organizer-photo-wrap">
       <img class="organizer-photo" src="{{ '/imgs/luisa.jpg' | relative_url }}" alt="Portrait of Luisa Jansen" loading="lazy">
-      <span class="party-hat" aria-hidden="true"><svg viewBox="0 0 24 24" width="44" height="44" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false"><g fill="none" stroke="#2f7d3d" stroke-width="1.4"><path d="M12 2 L6 12 L18 12 Z" fill="#ffe082" stroke="#c88b00"/><circle cx="9" cy="7" r="0.9" fill="#f06292"/><circle cx="12" cy="5" r="0.9" fill="#4fc3f7"/><circle cx="15" cy="7" r="0.9" fill="#81c784"/></g></svg></span>
+      <img class="party-hat" aria-hidden="true" alt="">
     </div>
     <h3>Luisa Jansen</h3>
     <p>University of Bern</p>
@@ -129,7 +129,7 @@ Example themes include (but are not limited to):
   <article class="organizer-card">
     <div class="organizer-photo-wrap">
       <img class="organizer-photo" src="{{ '/imgs/marlene.jpg' | relative_url }}" alt="Portrait of Marlene Wagner" loading="lazy">
-      <span class="party-hat" aria-hidden="true"><svg viewBox="0 0 24 24" width="44" height="44" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false"><g fill="none" stroke="#2f7d3d" stroke-width="1.4"><path d="M12 2 L6 12 L18 12 Z" fill="#ffe082" stroke="#c88b00"/><circle cx="9" cy="7" r="0.9" fill="#f06292"/><circle cx="12" cy="5" r="0.9" fill="#4fc3f7"/><circle cx="15" cy="7" r="0.9" fill="#81c784"/></g></svg></span>
+      <img class="party-hat" aria-hidden="true" alt="">
     </div>
     <h3>Marlene Wagner</h3>
     <p>ETH Zurich</p>
@@ -137,7 +137,7 @@ Example themes include (but are not limited to):
   <article class="organizer-card">
     <div class="organizer-photo-wrap">
       <img class="organizer-photo" src="{{ '/imgs/adrienn.jpg' | relative_url }}" alt="Portrait of Adrienn Toth" loading="lazy">
-      <span class="party-hat" aria-hidden="true"><svg viewBox="0 0 24 24" width="44" height="44" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false"><g fill="none" stroke="#2f7d3d" stroke-width="1.4"><path d="M12 2 L6 12 L18 12 Z" fill="#ffe082" stroke="#c88b00"/><circle cx="9" cy="7" r="0.9" fill="#f06292"/><circle cx="12" cy="5" r="0.9" fill="#4fc3f7"/><circle cx="15" cy="7" r="0.9" fill="#81c784"/></g></svg></span>
+      <img class="party-hat" aria-hidden="true" alt="">
     </div>
     <h3>Adrienn Toth</h3>
     <p>ETH Zurich</p>
@@ -145,7 +145,7 @@ Example themes include (but are not limited to):
   <article class="organizer-card">
     <div class="organizer-photo-wrap">
       <img class="organizer-photo" src="{{ '/imgs/steffen.jpg' | relative_url }}" alt="Portrait of Steffen Holter" loading="lazy">
-      <span class="party-hat" aria-hidden="true"><svg viewBox="0 0 24 24" width="44" height="44" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false"><g fill="none" stroke="#2f7d3d" stroke-width="1.4"><path d="M12 2 L6 12 L18 12 Z" fill="#ffe082" stroke="#c88b00"/><circle cx="9" cy="7" r="0.9" fill="#f06292"/><circle cx="12" cy="5" r="0.9" fill="#4fc3f7"/><circle cx="15" cy="7" r="0.9" fill="#81c784"/></g></svg></span>
+      <img class="party-hat" aria-hidden="true" alt="">
     </div>
     <h3>Steffen Holter</h3>
     <p>ETH Zurich</p>
@@ -153,7 +153,7 @@ Example themes include (but are not limited to):
   <article class="organizer-card">
     <div class="organizer-photo-wrap">
       <img class="organizer-photo" src="{{ '/imgs/noe.jpg' | relative_url }}" alt="Portrait of Noe Zufferey" loading="lazy">
-      <span class="party-hat" aria-hidden="true"><svg viewBox="0 0 24 24" width="44" height="44" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false"><g fill="none" stroke="#2f7d3d" stroke-width="1.4"><path d="M12 2 L6 12 L18 12 Z" fill="#ffe082" stroke="#c88b00"/><circle cx="9" cy="7" r="0.9" fill="#f06292"/><circle cx="12" cy="5" r="0.9" fill="#4fc3f7"/><circle cx="15" cy="7" r="0.9" fill="#81c784"/></g></svg></span>
+      <img class="party-hat" aria-hidden="true" alt="">
     </div>
     <h3>Noé Zufferey</h3>
     <p>ETH Zurich</p>
@@ -161,13 +161,19 @@ Example themes include (but are not limited to):
   <article class="organizer-card">
     <div class="organizer-photo-wrap">
       <img class="organizer-photo" src="{{ '/imgs/verena.jpg' | relative_url }}" alt="Portrait of Verena Zimmermann" loading="lazy">
-      <span class="party-hat" aria-hidden="true"><svg viewBox="0 0 24 24" width="44" height="44" xmlns="http://www.w3.org/2000/svg" role="img" focusable="false"><g fill="none" stroke="#2f7d3d" stroke-width="1.4"><path d="M12 2 L6 12 L18 12 Z" fill="#ffe082" stroke="#c88b00"/><circle cx="9" cy="7" r="0.9" fill="#f06292"/><circle cx="12" cy="5" r="0.9" fill="#4fc3f7"/><circle cx="15" cy="7" r="0.9" fill="#81c784"/></g></svg></span>
+      <img class="party-hat" aria-hidden="true" alt="">
     </div>
     <h3>Verena Zimmermann</h3>
     <p>ETH Zurich</p>
   </article>
 </div>
 
+<script>
+  window.HATS_BASE_URL = "{{ '/imgs/hats/' | relative_url }}";
+</script>
+<script>
+  window.HATS_BASE_URL = "{{ '/imgs/hats/' | relative_url }}";
+</script>
 <script src="{{ '/assets/js/hats.js' | relative_url }}"></script>
 
 </section>

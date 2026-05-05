@@ -415,30 +415,30 @@ body {
   border: 1px solid #cde3c6;
 }
 
-.party-hat {
+.party-hat,
+.organizer-photo-wrap img.party-hat {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
-  /* raised higher and slightly smaller (approx 10% smaller) */
-  top: -28px;
-  width: 30px;
+  top: -24px;
+  width: 26px;
+  max-width: none;
   height: auto;
+  margin: 0;
+  padding: 0;
   pointer-events: none;
   display: block;
   background: transparent !important;
-  /* place above the profile image */
   z-index: 4 !important;
   transform-origin: 50% 100%;
 }
 
-/* Ensure hats sit behind and photos stay above */
 .organizer-photo {
   position: relative;
   z-index: 2;
-  background: transparent; /* don't obscure hat transparency */
+  background: transparent;
 }
 .organizer-photo-wrap {
-  position: relative; /* keep wrapper positioning */
+  position: relative;
   overflow: visible;
 }
 

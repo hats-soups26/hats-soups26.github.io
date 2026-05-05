@@ -55,11 +55,12 @@ To participate, please submit a **two- to four-page position paper** on decision
 
 ## Program
 
-The workshop takes place on **Sunday afternoon, August 23, 2026** and follows a half-day format.
+The workshop takes place on **Sunday afternoon, August 23, 2026** and follows a half-day format. The detailed program will be finalized after paper acceptance.
 
-- **Part 1: Shared context and lightning rounds** — We begin with welcome and introductions, followed by short lightning talks and group formation.
+- **Part 1: Shared context and lightning rounds** — We begin with an introduction session, followed by short lightning talks and group formation.
 - **Break**
-- **Part 2: Collaborative design** — Groups run a guided co-design session (double-diamond inspired), then share outputs in a vernissage-style gallery walk, followed by open discussion and synthesis.
+- **Part 2: Collaborative design** — Groups run a guided co-design session (double-diamond inspired).
+- **Vernissage and open discussion** — Groups share outputs in a vernissage-style gallery walk, followed by open discussion and synthesis.
 
 </section>
 

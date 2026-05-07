@@ -49,6 +49,8 @@ Submission site: [https://hats26.usenix.hotcrp.com/](https://hats26.usenix.hotcr
 
 To participate, please submit a **two- to four-page position paper** on decision-making and human-AI teaming in cybersecurity. Submissions must follow the **SOUPS formatting template**. Submissions should <u>not</u> be anonymised. At least **one author of each accepted paper must attend in person**. Accepted papers will be published as workshop proceedings.
 
+<p class="cfp-download"><a class="btn btn-cfp" href="{{ '/docs/hats_soups26_cfp.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">Download the Call for Papers</a></p>
+
 </section>
 
 <section class="content-section section-white" markdown="1">
@@ -84,6 +86,8 @@ Example themes include (but are not limited to):
 <section class="content-section section-white" markdown="1">
 
 ## Organizers
+
+<p class="organizer-contact">For any questions: contact <a href="mailto:hats-soups26@googlegroups.com">hats-soups26@googlegroups.com</a></p>
 
 <div class="organizers-grid">
   <article class="organizer-card">

@@ -317,6 +317,28 @@ body {
   box-shadow: 0 10px 28px rgba(36, 95, 47, 0.3);
 }
 
+.cfp-download {
+  margin: -0.15rem 0 0.35rem;
+  text-align: center;
+}
+
+.btn-cfp {
+  display: inline-block;
+  font-size: 0.98rem;
+  padding: 0.55rem 1rem;
+  background: #ffffff;
+  color: var(--brand-dark) !important;
+  border: 1px solid rgba(47, 125, 61, 0.28);
+  box-shadow: none;
+}
+
+.btn-cfp:hover {
+  transform: translateY(-1px);
+  background: #f7fbf4;
+  border-color: rgba(47, 125, 61, 0.42);
+  box-shadow: 0 6px 16px rgba(36, 95, 47, 0.12);
+}
+
 .submission-note {
   color: var(--muted);
   font-style: italic;
@@ -464,6 +486,24 @@ body {
   color: #4f6558;
   font-size: 0.88rem;
   line-height: 1.4;
+}
+
+.organizer-contact {
+  margin: 0.4rem 0 1.1rem;
+  text-align: left;
+  color: #4f6558;
+  font-size: 0.95rem;
+}
+
+.organizer-contact a {
+  color: var(--brand-dark);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.organizer-contact a:hover {
+  color: var(--brand);
+  text-decoration: underline;
 }
 
 .organizer-card img.organizer-photo {

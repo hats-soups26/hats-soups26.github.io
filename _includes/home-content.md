@@ -12,7 +12,10 @@
   <p class="workshop-date">August 23, 2026</p>
   <p class="f3">Workshop on Designing Human-AI Teaming for Security @ <a href="https://soups.page/" target="_blank" rel="noopener noreferrer">SOUPS 2026</a></p>
   <p class="f4 mb-3">Exploring how to balance human agency and AI autonomy in high-stakes cybersecurity decision-making.</p>
-  <a class="btn btn-primary btn-submission" href="https://hats26.usenix.hotcrp.com/" target="_blank" rel="noopener noreferrer">Position Paper Submission</a>
+  <div class="submission-cta-row">
+    <a class="btn btn-primary btn-submission" href="https://hats26.usenix.hotcrp.com/" target="_blank" rel="noopener noreferrer">Position Paper Submission</a>
+    <span class="submission-deadline-label">Deadline: June 11 AoE</span>
+  </div>
 </div>
 
 <div class="quick-links" markdown="1">
@@ -41,9 +44,9 @@ HATS brings together researchers and practitioners to examine how human-AI teami
 
 We invite short position papers and contributions related to human-AI teaming in cybersecurity.
 
-- **Submission deadline:** June 1, 2026
-- **Notification to authors:** June 15, 2026
-- **Camera-ready deadline:** June 25, 2026
+- **Submission deadline:** <span class="deadline-stack"><span class="deadline-old">June 1, 2026</span><span class="deadline-new">June 11, 2026</span></span>
+- **Notification to authors:** <span class="deadline-stack"><span class="deadline-old">June 15, 2026</span><span class="deadline-new">June 22, 2026</span></span>
+- **Camera-ready deadline:** <span class="deadline-stack"><span class="deadline-old">June 25, 2026</span><span class="deadline-new">July 1, 2026</span></span>
 
 Submission site: [https://hats26.usenix.hotcrp.com/](https://hats26.usenix.hotcrp.com/)
 
@@ -172,9 +175,6 @@ Example themes include (but are not limited to):
   </article>
 </div>
 
-<script>
-  window.HATS_BASE_URL = "{{ '/imgs/hats/' | relative_url }}";
-</script>
 <script>
   window.HATS_BASE_URL = "{{ '/imgs/hats/' | relative_url }}";
 </script>
